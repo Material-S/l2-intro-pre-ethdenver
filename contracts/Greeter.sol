@@ -1,18 +1,4 @@
-//SPDX-License-Identifier: Unlicense
-pragma solidity ^0.8.0;
+:0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000094869207468657265210000000000000000000000000000000000000000000000
+Greeter was deployed to 0x05835FE692fb7c2f252E5644bcf461527bD9a6E0
 
-contract Greeter {
-    string private greeting;
 
-    constructor(string memory _greeting) {
-        greeting = _greeting;
-    }
-
-    function greet() public view returns (string memory) {
-        return greeting;
-    }
-
-    function setGreeting(string memory _greeting) public {
-        greeting = _greeting;
-    }
-}
